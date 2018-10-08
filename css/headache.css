@@ -1,0 +1,130 @@
+.slider_section {
+    background: #fff;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+.slider_section .main-content .slider-block {
+    height: 265px;
+    padding: 10px 20px;
+    background: #fff;
+}
+
+.slider_section .main-content .slider-block hr {
+    margin-top: 25px;
+    margin-bottom: 55px;
+}
+
+.slider_section .main-content .slider-block .car-row {
+    position: relative;
+}
+
+.slider_section .main-content .slider-block .car-row .ref_section h4 {
+    font-size: 18px;
+    color: #555;
+    text-transform: uppercase;
+    font-family: PT Sans,Arial,sans-serif;
+    margin-top: 0;
+}
+
+@media (max-width: 991px){
+.slider_section .main-content .slider-block .car-row .ref_section p {
+    margin-bottom: 25px;
+	}
+}
+
+.slider_section .main-content .slider-block .car-row .ref_section p {
+    font-size: 14px;
+}
+/*
+a {
+    display: block;
+}
+*/
+
+@media (max-width: 991px){
+ .slick-slider .slick-prev {
+    top: -129px;
+    left: 90%;
+	}
+}
+
+ .slick-slider .slick-prev {
+    outline: 0!important;
+    position: absolute;
+   /* top: 8px;
+    left: -10%;*/
+    width: 3%;
+}
+
+ .slick-slider .slick-arrow i {
+    color: #D3D3D3;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+}
+/**/
+.slick-track {
+    opacity: 1;
+    width: 2002px;
+    transform: translate3d(-1092px, 0px, 0px);
+}
+
+.main_wrap {
+width: 210px;
+}
+
+.slider_section .main_wrap {
+    overflow: hidden;
+	width: 162px;
+    height: 130px;
+    margin: 0 10px;
+    outline: 0;
+}
+
+ .main_wrap .slide_wrap {
+    width: 200%;
+    position: relative;
+    left: -100%;
+    height: 100%;
+    outline: 0;
+}
+
+.slide_wrap .clearfix {
+	width: 200%;
+    position: relative;
+    left: -100%;
+    height: 100%;
+    outline: 0;
+}
+
+.slide_wrap .hoverlay {
+    width: 50%;
+    float: left;
+    height: 100%;
+    background: #7DA817;
+    padding: 10px;
+    color: #fff;
+}
+
+
+@media (max-width: 767px){
+.main_wrap .slide_wrap .hoverlay p {
+    display: none;
+	}
+}
+
+.main_wrap .slide_wrap .sildes_images {
+    width: 50%;
+    float: left;
+}
+
+.main_wrap .slide_wrap .sildes_images img {
+    width: 100%;
+    height: auto;
+}
+
+
+

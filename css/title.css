@@ -1,0 +1,20 @@
+		.arrow_top {
+    bottom: 5px;
+    right: 10px;
+    position: fixed;
+}
+
+ .arrow_top .arr {
+    width: 40px;
+    height: 40px;
+    background: #7F7F7F;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    color: #fff;
+}
+
+ .arrow_top .arr i {
+    font-size: 18px;
+}
